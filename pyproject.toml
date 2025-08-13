@@ -1,0 +1,12 @@
+[project]
+name = "projeto-weave"
+version = "0.1.0"
+description = "Aqui usamos Weights & Biases (W&B) a qual é uma estrutura para monitorar, experimentar, avaliar, implementar e aprimorar aplicações baseadas em LLM. Projetado para flexibilidade e escalabilidade, o Weave oferece suporte a todas as etapas do fluxo de trabalho de desenvolvimento de aplicações LLM"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
